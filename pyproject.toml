@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pictile"
+version = "0.1.0"
+description = "Align photos, split them into tiles, and create tile-swap animations."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "Ben Fullard"}]
+dependencies = [
+    "numpy",
+    "opencv-python>=4.8.0.76",
+]
+
+[project.urls]
+Repository = "https://github.com/ben-a-f/pictile"
+
+[tool.setuptools.packages.find]
+where = ["src"]

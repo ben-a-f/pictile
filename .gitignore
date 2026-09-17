@@ -1,0 +1,7 @@
+__pycache__/
+build/
+dist/
+*.egg-info/
+examples/animations
+examples/aligned
+examples/stitched
